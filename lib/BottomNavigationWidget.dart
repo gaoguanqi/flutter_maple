@@ -10,7 +10,7 @@ class BottomNavigationWidget extends StatefulWidget {
 
 
 class BottomNavigationWidgetState extends State<BottomNavigationWidget>{
-  final _bottomNavigationColor = Colors.deepOrange;
+  var _bottomNavigationColor = Colors.blueGrey;
   int _currentIndex = 0;
   List<Widget> list = List();
 
@@ -37,7 +37,9 @@ class BottomNavigationWidgetState extends State<BottomNavigationWidget>{
                 ),
                 title: Text(
                   '首页',
-                  style: TextStyle(color: _bottomNavigationColor),
+                  style: TextStyle(
+                      fontSize: 14,
+                      color: _bottomNavigationColor),
                 )
             ),
             BottomNavigationBarItem(
@@ -47,7 +49,9 @@ class BottomNavigationWidgetState extends State<BottomNavigationWidget>{
                 ),
                 title: Text(
                   '视频',
-                  style: TextStyle(color: _bottomNavigationColor),
+                  style: TextStyle(
+                      fontSize: 14,
+                      color: _bottomNavigationColor),
                 )
             ),
             BottomNavigationBarItem(
@@ -57,7 +61,9 @@ class BottomNavigationWidgetState extends State<BottomNavigationWidget>{
                 ),
                 title: Text(
                   '礼物',
-                  style: TextStyle(color: _bottomNavigationColor),
+                  style: TextStyle(
+                      fontSize: 14,
+                      color: _bottomNavigationColor),
                 )
             ),
             BottomNavigationBarItem(
@@ -67,7 +73,9 @@ class BottomNavigationWidgetState extends State<BottomNavigationWidget>{
                 ),
                 title: Text(
                   '我的',
-                  style: TextStyle(color: _bottomNavigationColor),
+                  style: TextStyle(
+                      fontSize: 14,
+                      color: _bottomNavigationColor),
                 )
             )
           ]
