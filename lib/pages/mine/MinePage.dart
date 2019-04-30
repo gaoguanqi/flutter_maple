@@ -4,7 +4,8 @@ class MinePage extends StatelessWidget{
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: Text('Mine'),
+          title: Text('我的'),
+          centerTitle: true,
         ),
         body: Container(
           alignment:Alignment.center,

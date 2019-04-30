@@ -4,7 +4,8 @@ class VideoPage extends StatelessWidget{
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: Text('Video'),
+          title: Text('视频'),
+          centerTitle: true,
         ),
         body: Container(
           alignment:Alignment.center,

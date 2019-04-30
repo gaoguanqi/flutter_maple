@@ -4,7 +4,8 @@ class GoodsPage extends StatelessWidget{
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: Text('Goods'),
+          title: Text('礼物'),
+          centerTitle: true,
         ),
         body: Container(
           alignment:Alignment.center,
